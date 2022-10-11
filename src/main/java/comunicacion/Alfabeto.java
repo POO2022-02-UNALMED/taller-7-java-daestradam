@@ -42,7 +42,7 @@ public class Alfabeto extends Pictograma {
 		for(String letra:letras) {
 			x=letra+", ";
 		}
-		return x;
+		return x.substring(0, x.length()-2);
 	}
 
 }
